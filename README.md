@@ -6,7 +6,25 @@ This repository contains the data with manual annotations gathered using CrowdFl
 
 We provide more details on this dataset at https://www.techatbloomberg.com/research-weakly-supervised-contextualization-knowledge-graph-facts/. 
 
-The [file](sigir2018-kg-contextualization.gz) itself is gzipped and has the following fields.
+The [file](sigir2018-kg-contextualization.gz) itself is gzipped and has the following structure.
+
+```json
+{
+    "query_id" : {
+        "relation": "",
+        "query": "",
+        "candidates": [
+            {
+                "cand_id": {
+                    "cf_label": 0,
+                    "dist_sup_label": 0,
+                    "path": []
+                }
+            }
+        ]
+    }
+}
+```
 
 Field | Description
 --- | ---
@@ -28,21 +46,3 @@ Field | Description
 `object_id` | The object ID
 `object_type_1...n` | The types of the object
 
-I.e., 
-```json
-{
-    "query_id" : {
-        "relation": "",
-        "query": "",
-        "candidates": [
-            {
-                "cand_id": {
-                    "cf_label": 0,
-                    "dist_sup_label": 0,
-                    "path": []
-                }
-            }
-        ]
-    }
-}
-```
