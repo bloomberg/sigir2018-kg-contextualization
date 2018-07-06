@@ -4,7 +4,7 @@ This repository contains the data with manual annotations gathered using CrowdFl
 
 > Nikos Voskarides, Edgar Meij, Ridho Reinanda, Abhinav Khaitan, Miles Osborne, Giorgio Stefanoni, Kambadur Prabhanjan and Maarten de Rijke: Weakly-supervised Contextualization of Knowledge Graph Facts. 2018. In Proceedings of the 41st International ACM SIGIR conference on Research and Development in Information Retrieval (SIGIR '18).
 
-We provide more details on this dataset at https://www.techatbloomberg.com/research-weakly-supervised-contextualization-knowledge-graph-facts/. 
+It based on [Freebase](https://developers.google.com/freebase/) and released under the same CC-BY license. We provide more details on this dataset at https://www.techatbloomberg.com/research-weakly-supervised-contextualization-knowledge-graph-facts/. 
 
 The [file](sigir2018-kg-contextualization.gz) itself is gzipped and has the following structure.
 
